@@ -48,6 +48,7 @@ python train.py --config_file configs/DukeMTMC/vit_transreid_stride.yml MODEL.DE
 
 ## Test
 
+```python
 # Test on Occluded-Duke
 python test.py --config_file configs/OCC_Duke/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')"
 
@@ -62,6 +63,8 @@ python test.py --config_file configs/Market/vit_transreid_stride.yml MODEL.DEVIC
 
 # Test on DukeMTMC-reID
 python test.py --config_file configs/DukeMTMC/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')"
+
+```
 
 ## Dataset Comparison
 

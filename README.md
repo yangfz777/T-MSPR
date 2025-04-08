@@ -3,7 +3,7 @@ Code of paper "Human Semantic Perception and Recovery for Occluded Person Re-Ide
 
 ## model download link
 Download link :https://www.flyai.com/m/jx_vit_base_p16_224-80ecf9dd.pth
-The link to the trained model of the T-MSPR method on the Occluded-Duke dataset: ./data/transformer_best.pth
+
 
 
 

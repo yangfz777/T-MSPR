@@ -48,7 +48,20 @@ python train.py --config_file configs/DukeMTMC/vit_transreid_stride.yml MODEL.DE
 
 ## Test
 
-The pre-trained models will come soon...
+# Test on Occluded-Duke
+python test.py --config_file configs/OCC_Duke/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')"
+
+# Test on Partial-REID
+python test.py --config_file configs/Partial_ReID/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')"
+
+# Test on Occluded-ReID
+python test.py --config_file configs/OCC_ReID/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')"
+
+# Test on Market-1501
+python test.py --config_file configs/Market/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')"
+
+# Test on DukeMTMC-reID
+python test.py --config_file configs/DukeMTMC/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')"
 
 ## Dataset Comparison
 
